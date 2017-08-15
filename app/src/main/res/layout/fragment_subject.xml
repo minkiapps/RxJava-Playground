@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<Button
+		android:id="@+id/btn_fragment_subject_publish"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="16dp"
+		android:text="Publish Subject (0)"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView3"
+		android:layout_marginStart="16dp"/>
+
+	<Button
+		android:id="@+id/btn_fragment_subject_behaviour"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="16dp"
+		android:text="Behaviour Subject (0)"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btn_fragment_subject_publish"
+		android:layout_marginStart="16dp"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="16dp"
+		android:text="Replay Subject (0)"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btn_fragment_subject_behaviour"
+		android:id="@+id/btn_fragment_subjects_replay"
+		android:layout_marginStart="16dp"/>
+
+	<Button
+		android:id="@+id/btn_fragment_subjects_publish_addsub"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:text="Add Subscriber"
+		app:layout_constraintBottom_toTopOf="@+id/btn_fragment_subject_behaviour"
+		app:layout_constraintLeft_toRightOf="@+id/btn_fragment_subject_publish"
+		android:layout_marginStart="8dp"/>
+
+	<Button
+		android:id="@+id/btn_fragment_subjects_behaviour_addsub"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:text="Add Subscriber"
+		app:layout_constraintBottom_toBottomOf="@+id/btn_fragment_subject_behaviour"
+		app:layout_constraintLeft_toRightOf="@+id/btn_fragment_subject_behaviour"
+		android:layout_marginStart="8dp"/>
+
+	<Button
+		android:id="@+id/btn_fragment_subjects_replay_addsub"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:text="Add Subscriber"
+		app:layout_constraintBottom_toBottomOf="@+id/btn_fragment_subjects_replay"
+		app:layout_constraintLeft_toRightOf="@+id/btn_fragment_subjects_replay"
+		android:layout_marginStart="8dp"/>
+
+	<TextView
+		android:id="@+id/tv_fragment_subject_publish_subscriber_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Publisher Subject Subscriber: 0"
+		app:layout_constraintTop_toBottomOf="@+id/btn_fragment_subjects_replay"
+		android:layout_marginLeft="16dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		android:layout_marginStart="16dp"
+		android:layout_marginTop="7dp"/>
+
+	<TextView
+		android:id="@+id/tv_fragment_subject_behaviour_subscriber_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Behaviour Subject Subscriber: 0"
+		app:layout_constraintTop_toBottomOf="@+id/tv_fragment_subject_publish_subscriber_info"
+		android:layout_marginLeft="16dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		android:layout_marginStart="16dp"/>
+
+	<TextView
+		android:id="@+id/tv_fragment_subject_replay_subscriber_info"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Replay Subject Subscriber: 0"
+		app:layout_constraintTop_toBottomOf="@+id/tv_fragment_subject_behaviour_subscriber_info"
+		android:layout_marginLeft="16dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		android:layout_marginStart="16dp"/>
+
+	<TextView
+		android:layout_marginTop="16dp"
+		android:id="@+id/textView3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Click one of the subject button to emit a random number between 0...10, the number in bracket indicated how much items the subject has emitted"
+		android:layout_marginLeft="16dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_marginStart="16dp"/>
+
+	<android.support.v4.widget.NestedScrollView
+		android:id="@+id/nestedScrollView"
+		android:layout_width="0dp"
+		android:layout_height="286dp"
+		android:layout_marginEnd="8dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:layout_marginStart="8dp"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tv_fragment_subject_replay_subscriber_info"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:layout_marginBottom="8dp">
+
+		<TextView
+			android:id="@+id/tv_fragment_subjects_output"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+
+	</android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

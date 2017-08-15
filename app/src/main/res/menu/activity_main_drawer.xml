@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<group android:checkableBehavior="single">
+
+		<item
+			android:id="@+id/nav_kotlin_playground"
+			android:title="Kotlin PlayGround"/>
+
+		<item
+			android:id="@+id/nav_java_playground"
+			android:title="Java PlayGround"/>
+
+		<item
+			android:id="@+id/nav_operators_examples"
+			android:title="Operators"/>
+
+		<item
+			android:id="@+id/nav_coldhot_obs"
+			android:title="Cold &amp; Hot Observables"/>
+
+		<item
+			android:id="@+id/nav_rx_streams"
+			android:title="Rx Stream"/>
+
+		<item
+			android:id="@+id/nav_rx_subject"
+			android:title="Subjects"/>
+	</group>
+
+	<item android:title="RxBindings">
+		<menu>
+			<item
+				android:id="@+id/nav_text_increment"
+				android:title="Text Number Increment"/>
+
+			<item
+				android:id="@+id/nav_form"
+				android:title="Form"/>
+
+			<item
+				android:id="@+id/nav_search"
+				android:title="Search"/>
+
+			<item
+				android:id="@+id/nav_image_morph"
+				android:title="Image Morph"/>
+
+			<item
+				android:id="@+id/nav_permissions"
+				android:title="Permissions"/>
+
+		</menu>
+	</item>
+
+</menu>

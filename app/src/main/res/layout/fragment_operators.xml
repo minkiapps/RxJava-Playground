@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.apmem.tools.layouts.FlowLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="32dp">
+
+	<Button
+		android:id="@+id/button_create"
+		android:layout_gravity="center_horizontal"
+		android:text="Create"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button_just"
+		android:layout_gravity="center_horizontal"
+		android:text="Just"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button_from"
+		android:layout_gravity="center_horizontal"
+		android:text="From"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button_defer"
+		android:layout_gravity="center_horizontal"
+		android:text="Defer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button_map"
+		android:layout_gravity="center_horizontal"
+		android:text="Map"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button_flat_map"
+		android:layout_gravity="center_horizontal"
+		android:text="FlatMap"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button_filter"
+		android:layout_gravity="center_horizontal"
+		android:text="Filter"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button_groupby"
+		android:layout_gravity="center_horizontal"
+		android:text="GroupBy"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button_distinct"
+		android:layout_gravity="center_horizontal"
+		android:text="Distinct"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button_merge"
+		android:layout_gravity="center_horizontal"
+		android:text="Merge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button_concat"
+		android:layout_gravity="center_horizontal"
+		android:text="Concat"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button_zip"
+		android:layout_gravity="center_horizontal"
+		android:text="Zip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button_takeuntil"
+		android:layout_gravity="center_horizontal"
+		android:text="TakeUntil"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button_takewhile"
+		android:layout_gravity="center_horizontal"
+		android:text="TakeWhile"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+</org.apmem.tools.layouts.FlowLayout>

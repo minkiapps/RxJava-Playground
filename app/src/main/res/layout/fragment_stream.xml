@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.apmem.tools.layouts.FlowLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="start|top"
+	android:padding="16dp">
+
+	<Button
+		android:id="@+id/btn_fragment_stream_1"
+		android:layout_gravity="center_horizontal"
+		android:text="Get FirstName From DB"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/btn_fragment_stream_2"
+		android:layout_gravity="center_horizontal"
+		android:text="Get FirstName Hash From Backend"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/btn_fragment_stream_3"
+		android:layout_gravity="center_horizontal"
+		android:text="Get Assi FirstName Hash From Backend"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/btn_fragment_stream_4"
+		android:layout_gravity="center_horizontal"
+		android:text="Toast Assi FirstName&amp;LastName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/btn_fragment_stream_5"
+		android:layout_gravity="center_horizontal"
+		android:text="Zip FirstName&amp;LastName And Hash"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/btn_fragment_stream_6"
+		android:layout_gravity="center_horizontal"
+		android:text="Make 3 Yummy Toasts!"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+</org.apmem.tools.layouts.FlowLayout>

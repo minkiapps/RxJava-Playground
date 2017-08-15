@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:padding="16dp"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent">
+
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<android.support.design.widget.TextInputEditText
+			android:id="@+id/edittext_fragment_form_feedback"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="Your feedback (min 5 chars.)"
+			android:lines="5"/>
+
+	</android.support.design.widget.TextInputLayout>
+
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<android.support.design.widget.TextInputEditText
+			android:id="@+id/edittext_fragment_form_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="Your Name (min 3 chars.)"/>
+
+	</android.support.design.widget.TextInputLayout>
+
+	<CheckBox
+		android:id="@+id/checkbox_fragment_form_accept"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="I accept everything"/>
+
+	<Button
+		android:id="@+id/btn_fragment_form_send"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:enabled="false"
+		android:text="Send"/>
+
+</LinearLayout>
