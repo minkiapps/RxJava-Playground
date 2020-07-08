@@ -8,7 +8,6 @@ import com.example.mingkangpan.learnrx2.db.DataBase
 import com.example.mingkangpan.learnrx2.network.Backend
 import com.example.mingkangpan.learnrx2.network.BackendMock
 import com.example.mingkangpan.learnrx2.db.DataBaseMock
-import com.squareup.leakcanary.LeakCanary
 
 /**
  * Created by panmingk on 10/04/2017.
@@ -17,7 +16,6 @@ class App : Application(){
 
 	override fun onCreate() {
 		super.onCreate()
-		LeakCanary.install(this)
 
 		val dependency = Dependency.INSTANCE
 		dependency.init {

@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit
  */
 fun Any.logWithCurrentThread(message: String) = debug("${Thread.currentThread()}: $message")
 
-infix fun Any.debug(message: String?) = Log.d(this.javaClass.simpleName, message)
+infix fun Any.debug(message: String) = Log.d(this.javaClass.simpleName, message)
 
 class SimpleFuture<V>(val work : () -> V) : Future<V> {
 
